@@ -1,0 +1,1204 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="urn:webprotege:ontology:5ab719a5-8737-411f-a456-4ce6eec5ad7b"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="urn:webprotege:ontology:5ab719a5-8737-411f-a456-4ce6eec5ad7b">
+    <Prefix name="" IRI="urn:webprotege:ontology:5ab719a5-8737-411f-a456-4ce6eec5ad7b"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/activity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.w3.org/community/pair-cg/RCVzUpccei0mm8qy3Nto84r"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.w3.org/community/pair-cg/RDEaeinabW9Gj7vHLeDb2t4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.w3.org/community/pair-cg/RoeCpdb0knTt37o50drMjQ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.w3.org/community/pair-cg/activity_context"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.w3.org/community/pair-cg/activity_occurrence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.w3.org/community/pair-cg/agent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.w3.org/community/pair-cg/artefact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.w3.org/community/pair-cg/artistic_intention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.w3.org/community/pair-cg/artistic_proccess_team"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.w3.org/community/pair-cg/artistic_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.w3.org/community/pair-cg/attendee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.w3.org/community/pair-cg/combinatorial_mode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.w3.org/community/pair-cg/complex_activity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.w3.org/community/pair-cg/contribution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.w3.org/community/pair-cg/creative_contribution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.w3.org/community/pair-cg/creative_delivery_method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.w3.org/community/pair-cg/creative_material"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.w3.org/community/pair-cg/creative_material_artefact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.w3.org/community/pair-cg/date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.w3.org/community/pair-cg/discipline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.w3.org/community/pair-cg/group_of_agents"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.w3.org/community/pair-cg/intangible_property"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.w3.org/community/pair-cg/part"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.w3.org/community/pair-cg/performance_part"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.w3.org/community/pair-cg/performance_realization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.w3.org/community/pair-cg/performance_realization_schedule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.w3.org/community/pair-cg/performance_work"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.w3.org/community/pair-cg/person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.w3.org/community/pair-cg/phase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.w3.org/community/pair-cg/realization_activity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.w3.org/community/pair-cg/realization_element"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.w3.org/community/pair-cg/role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://www.w3.org/community/pair-cg/state"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/R61gam5ny7r0rjYz9Qap3x"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/R7JYK1ofTEDb2bdUnFtiPL9"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/R800dLsETHG1kskyUl92UbZ"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/R83By7aqSAWBiFBQYrbDzMG"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/R9SMeXF1UutTT2f2vUiKK4Z"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/R9YdPk8kO8AxHoAWr7Q68bM"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/RBEdx5nDnCIpK0cisbKpXAS"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/RBGJfA4A6oiLB3jt2GL1AO2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/RBnDDvrKRtbxhYMUbCTga3R"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/ROlCMPPMr4VzAhvnfFyJbY"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/RTMpnYswSFl71ndjwTQMpA"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/RYRHz3vXLNIeU7lBP9mbVI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.w3.org/community/pair-cg/RCvu7UgkmwxxzZuWyqf5SxV"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#comment"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="https://www.w3.org/community/pair-cg/R8yh7t5UCGvolkkuTFWbWs7"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="https://www.w3.org/community/pair-cg/RCVzUpccei0mm8qy3Nto84r"/>
+        <Class IRI="https://www.w3.org/community/pair-cg/realization_element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.w3.org/community/pair-cg/RDEaeinabW9Gj7vHLeDb2t4"/>
+        <Class IRI="https://www.w3.org/community/pair-cg/realization_element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.w3.org/community/pair-cg/RoeCpdb0knTt37o50drMjQ"/>
+        <Class IRI="https://www.w3.org/community/pair-cg/phase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.w3.org/community/pair-cg/artistic_proccess_team"/>
+        <Class IRI="https://www.w3.org/community/pair-cg/group_of_agents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.w3.org/community/pair-cg/artistic_process"/>
+        <Class IRI="https://www.w3.org/community/pair-cg/complex_activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.w3.org/community/pair-cg/complex_activity"/>
+        <Class IRI="http://webprotege.stanford.edu/activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.w3.org/community/pair-cg/creative_contribution"/>
+        <Class IRI="https://www.w3.org/community/pair-cg/contribution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.w3.org/community/pair-cg/creative_material_artefact"/>
+        <Class IRI="https://www.w3.org/community/pair-cg/artefact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.w3.org/community/pair-cg/part"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.w3.org/community/pair-cg/performance_part"/>
+        <Class IRI="https://www.w3.org/community/pair-cg/part"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.w3.org/community/pair-cg/person"/>
+        <Class IRI="https://www.w3.org/community/pair-cg/agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.w3.org/community/pair-cg/phase"/>
+        <Class IRI="https://www.w3.org/community/pair-cg/complex_activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.w3.org/community/pair-cg/realization_activity"/>
+        <Class IRI="https://www.w3.org/community/pair-cg/complex_activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.w3.org/community/pair-cg/realization_element"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="https://www.w3.org/community/pair-cg/role"/>
+        <NamedIndividual IRI="https://www.w3.org/community/pair-cg/RCvu7UgkmwxxzZuWyqf5SxV"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/R61gam5ny7r0rjYz9Qap3x"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/R7JYK1ofTEDb2bdUnFtiPL9"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/R800dLsETHG1kskyUl92UbZ"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/R83By7aqSAWBiFBQYrbDzMG"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/R9SMeXF1UutTT2f2vUiKK4Z"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/R9YdPk8kO8AxHoAWr7Q68bM"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/RBEdx5nDnCIpK0cisbKpXAS"/>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/RBGJfA4A6oiLB3jt2GL1AO2"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/RBGJfA4A6oiLB3jt2GL1AO2"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/RBnDDvrKRtbxhYMUbCTga3R"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/ROlCMPPMr4VzAhvnfFyJbY"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/RTMpnYswSFl71ndjwTQMpA"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/RYRHz3vXLNIeU7lBP9mbVI"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/R61gam5ny7r0rjYz9Qap3x"/>
+        <Class IRI="https://www.w3.org/community/pair-cg/performance_work"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/R7JYK1ofTEDb2bdUnFtiPL9"/>
+        <Class IRI="https://www.w3.org/community/pair-cg/performance_realization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/R9SMeXF1UutTT2f2vUiKK4Z"/>
+        <Class IRI="https://www.w3.org/community/pair-cg/performance_realization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/RBnDDvrKRtbxhYMUbCTga3R"/>
+        <Class IRI="https://www.w3.org/community/pair-cg/artistic_process"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/ROlCMPPMr4VzAhvnfFyJbY"/>
+        <Class IRI="https://www.w3.org/community/pair-cg/creative_material"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/RTMpnYswSFl71ndjwTQMpA"/>
+        <Class IRI="https://www.w3.org/community/pair-cg/artistic_process"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/RYRHz3vXLNIeU7lBP9mbVI"/>
+        <Class IRI="https://www.w3.org/community/pair-cg/performance_realization_schedule"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/R61gam5ny7r0rjYz9Qap3x"/>
+        <Class IRI="https://www.w3.org/community/pair-cg/performance_realization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/R7JYK1ofTEDb2bdUnFtiPL9"/>
+        <Class IRI="https://www.w3.org/community/pair-cg/performance_work"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/R9SMeXF1UutTT2f2vUiKK4Z"/>
+        <Class IRI="https://www.w3.org/community/pair-cg/state"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/RBGJfA4A6oiLB3jt2GL1AO2"/>
+        <Class IRI="https://www.w3.org/community/pair-cg/artistic_proccess_team"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/RBnDDvrKRtbxhYMUbCTga3R"/>
+        <Class IRI="https://www.w3.org/community/pair-cg/phase"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/ROlCMPPMr4VzAhvnfFyJbY"/>
+        <Class IRI="https://www.w3.org/community/pair-cg/part"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/RTMpnYswSFl71ndjwTQMpA"/>
+        <Class IRI="http://webprotege.stanford.edu/activity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/RTMpnYswSFl71ndjwTQMpA"/>
+        <Class IRI="https://www.w3.org/community/pair-cg/part"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="https://www.w3.org/community/pair-cg/RYRHz3vXLNIeU7lBP9mbVI"/>
+        <Class IRI="https://www.w3.org/community/pair-cg/date"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/activity</IRI>
+        <Literal xml:lang="en-ca">activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#comment"/>
+        <IRI>http://webprotege.stanford.edu/activity</IRI>
+        <Literal>CQ: What were the activities of the development phase for the show?
+CQ: What type of creation activity are you doing?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#comment"/>
+        <IRI>http://webprotege.stanford.edu/activity</IRI>
+        <Literal>We are reusing the concept of activity as defined in the Process Specification Language (PSL).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://webprotege.stanford.edu/activity</IRI>
+        <Literal>A repeatable pattern of behaviour.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/R61gam5ny7r0rjYz9Qap3x</IRI>
+        <Literal xml:lang="en-ca">is_executed_in</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/R7JYK1ofTEDb2bdUnFtiPL9</IRI>
+        <Literal xml:lang="en-ca">is_execution_of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/R800dLsETHG1kskyUl92UbZ</IRI>
+        <Literal xml:lang="en-ca">belongs_to</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/R83By7aqSAWBiFBQYrbDzMG</IRI>
+        <Literal xml:lang="en-ca">occurrence_of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#comment"/>
+        <IRI>https://www.w3.org/community/pair-cg/R83By7aqSAWBiFBQYrbDzMG</IRI>
+        <Literal>Related definitions: 
+
+“An ACTIVITY describes something that occurs in the domain. An ACTIVITY may be further defined by (decomposed into) SUBACTIVITIES. An ACTIVITY may have precondition and/or effect STATE. An ACTIVITY may be enabled by or cause some STATE. An enabling of causing STATE is a generalization of a precondition/effect; an ACTIVITY is enabled by or causes some State if it has a subactivity with a precondition or effect (respectively) of that State. In other words, the state may not be required directly before, or cause directly after the activity, but by some more specialized sub-activity. An Activity occurs at some point in time and space. An Activity takes place during some interval, and so has some duration. An Activity may have some Manifestations that participate in it.”
+
+
+Source: 
+https://enterpriseintegrationlab.github.io/icity/Activity/doc/index-en.html#Activity
+http://ontologydesignpatterns.org/wiki/Submissions:An_Ontology_Design_Pattern_for_Activity_Reasoning</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://www.w3.org/community/pair-cg/R83By7aqSAWBiFBQYrbDzMG</IRI>
+        <Literal>Supports the association of an activity occurrence to an activity.
+
+The relationship between activities and activity occurrences is captured by the occurrence_of relation. Any activity occurrence corresponds to a unique activity. (Activities may have multiple occurrences, or there may exist activities which never occur.)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/R8yh7t5UCGvolkkuTFWbWs7</IRI>
+        <Literal xml:lang="en-ca">def</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/R9SMeXF1UutTT2f2vUiKK4Z</IRI>
+        <Literal xml:lang="en-ca">induces</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/R9YdPk8kO8AxHoAWr7Q68bM</IRI>
+        <Literal xml:lang="en-ca">has_role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/RBEdx5nDnCIpK0cisbKpXAS</IRI>
+        <Literal xml:lang="en-ca">has</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/RBGJfA4A6oiLB3jt2GL1AO2</IRI>
+        <Literal xml:lang="en-ca">has_member</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/RBnDDvrKRtbxhYMUbCTga3R</IRI>
+        <Literal xml:lang="en-ca">has_phase</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://www.w3.org/community/pair-cg/RBnDDvrKRtbxhYMUbCTga3R</IRI>
+        <Literal>The distinct relationship between the ARTISTIC_PROCESS and a distinct period or stage within it known as a PHASE.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>https://www.w3.org/community/pair-cg/RCVzUpccei0mm8qy3Nto84r</IRI>
+        <Literal>Examples of TANGIBLE_REALIZATION_ELEMENTs include, but are not limited to: 
+Props
+Lighting instruments
+Musical instruments
+Scenographic elements, set pieces
+Costumes
+Flooring (e.g a dance floor)
+
+
+A lighting design which is to be lit and executed during a PERFORMANCE_REALIZATION is considered CREATIVE_MATERIAL, whereas the light fixtures are TANGIBLE_REALIZATION_ELEMENTs. A technical drawing, or lighting cue sheet which is a blueprint of the lightning design is an ARTEFACT of the CREATIVE_MATERIAL.
+
+
+The CREATIVE_MATERIAL may have creative rights or licensing rights associated with it. For example, a lighting designer may receive a percentage of royalties for all PERFORMANCE_REALIZATIONS of a PERFORMANCE_WORk that use their lighting design.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/RCVzUpccei0mm8qy3Nto84r</IRI>
+        <Literal xml:lang="en-ca">tangible_realization_element</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#comment"/>
+        <IRI>https://www.w3.org/community/pair-cg/RCVzUpccei0mm8qy3Nto84r</IRI>
+        <Literal>Relevant CQs: 
+What did you think of the props and costumes?
+How big was the scrim and back drop?
+What lighting instruments are needed for this lighting design?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://www.w3.org/community/pair-cg/RCVzUpccei0mm8qy3Nto84r</IRI>
+        <Literal>Physical objects capable of being perceived especially by the sense of touch intended to be used in a PERFORMANCE_REALIZATION.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/RCvu7UgkmwxxzZuWyqf5SxV</IRI>
+        <Literal xml:lang="en-ca">attendee</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>https://www.w3.org/community/pair-cg/RDEaeinabW9Gj7vHLeDb2t4</IRI>
+        <Literal>INTANGIBLE_REALIZATION_ELEMENT describes the way that something is performed or executed, whereas an INTANGIBLE_PROPERTY describes the content that is executed. 
+
+Some examples of an INTANGIBLE_REALIZATION_ELEMENT include: 
+
+Performance Elements:
+Speed
+Pacing
+Intensity of movement
+Vocal delivery 
+Energy
+Tempo
+Volume
+Pitch
+Intensity
+Colour
+Mood
+Tone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/RDEaeinabW9Gj7vHLeDb2t4</IRI>
+        <Literal xml:lang="en-ca">intangible_realization_element</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#comment"/>
+        <IRI>https://www.w3.org/community/pair-cg/RDEaeinabW9Gj7vHLeDb2t4</IRI>
+        <Literal>Relevant CQs: 
+What do you think of the actor’s volume?
+How did you feel about the intensity?
+How would you describe the pacing of the show?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://www.w3.org/community/pair-cg/RDEaeinabW9Gj7vHLeDb2t4</IRI>
+        <Literal>A non tactile component that describes dynamics, pacing, pitch, energy or other mode of execution.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/ROlCMPPMr4VzAhvnfFyJbY</IRI>
+        <Literal xml:lang="en-ca">has_performance_part</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>https://www.w3.org/community/pair-cg/RTMpnYswSFl71ndjwTQMpA</IRI>
+        <Literal>The ARTISTIC_PROCESS, for example, has many activities that belong to it. It HAS_PART → ACTIVITY. Additionally, an element of CREATIVE_MATERIAL such as a script may have specific parts belonging to it ie. act 1, act 2.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/RTMpnYswSFl71ndjwTQMpA</IRI>
+        <Literal xml:lang="en-ca">has_part</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#comment"/>
+        <IRI>https://www.w3.org/community/pair-cg/RTMpnYswSFl71ndjwTQMpA</IRI>
+        <Literal>(has_part will be pulled in from existing ontology)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://www.w3.org/community/pair-cg/RTMpnYswSFl71ndjwTQMpA</IRI>
+        <Literal>Belonging to or connected with another element.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/RYRHz3vXLNIeU7lBP9mbVI</IRI>
+        <Literal xml:lang="en-ca">has_start_date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/RoeCpdb0knTt37o50drMjQ</IRI>
+        <Literal xml:lang="en-ca">development_phase</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#comment"/>
+        <IRI>https://www.w3.org/community/pair-cg/RoeCpdb0knTt37o50drMjQ</IRI>
+        <Literal>Subclass Examples: The composition of a DEVELOPMENT_PHASE is not set by the MiLOPA framework, rather it can vary based on the wishes of the ARTISTIC_PROCESS_TEAM who are free to ascribe to their DEVELOPMENT_PHASE sub phases which may include: 
+
+
+Conceptualization (phase)
+Ideation (phase)
+Generation (phase)
+Creation (phase)
+Development (phase)
+Refinement (phase)
+Rehearsal (phase)
+Realization (phase)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://www.w3.org/community/pair-cg/RoeCpdb0knTt37o50drMjQ</IRI>
+        <Literal>A type of PHASE in which the ARTISTIC_PROCESS_TEAM iteratively creates, mixes, models, workshops, adapts, builds, transforms or otherwise generates components of the PERFORMANCE_WORK.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>https://www.w3.org/community/pair-cg/activity_context</IRI>
+        <Literal>A workshop performance, for example, is a type of  ACTIVITY_CONTEXT that indicates to attendees that the REALIZATION_ACTIVITY will include components still in development, and which may require audience attendance and feedback for further refinement. Similarly, a script reading is a type of REALIZATION_ACTIVITY where performers may be “on book” and reference or read from the script, where limited blocking or staging has been set, and where there are few to no design elements incorporated. 
+
+
+Examples of ACTIVITY_CONTEXT may include:
+
+
+Workshop reading
+Script reading
+Alpha performance
+Lab performance
+In-development performance
+Dress rehearsal
+Preview performance
+Community-night performance
+Media night performance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/activity_context</IRI>
+        <Literal xml:lang="en-ca">activity_context</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#comment"/>
+        <IRI>https://www.w3.org/community/pair-cg/activity_context</IRI>
+        <Literal>Relevant CQs: 
+Is it a preview performance or a regular performance?
+Is the event a script reading or a full production?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://www.w3.org/community/pair-cg/activity_context</IRI>
+        <Literal>The circumstances that indicate the completeness, fullness, purpose and setting for the REALIZATION_ACTIVITY to occur and which position it to be understood and assessed.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/activity_occurrence</IRI>
+        <Literal xml:lang="en-ca">activity_occurrence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://www.w3.org/community/pair-cg/activity_occurrence</IRI>
+        <Literal>A concrete instantiation (a manifestation) of an activity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>https://www.w3.org/community/pair-cg/agent</IRI>
+        <Literal>A THING could be, for example, a robot, an organization, a group of people, an animal.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/agent</IRI>
+        <Literal xml:lang="en-ca">agent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#comment"/>
+        <IRI>https://www.w3.org/community/pair-cg/agent</IRI>
+        <Literal>Relevant CQs: 
+What AGENTs were in the ARTISTIC_PROCESS_TEAM?
+Who was the director?
+What animals performed in the horse show?
+What is the name of that robot dancer?
+What kind of a performer is R2D2?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://www.w3.org/community/pair-cg/agent</IRI>
+        <Literal>A PERSON or THING that takes an active ROLE within the context of the performing arts.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>https://www.w3.org/community/pair-cg/artefact</IRI>
+        <Literal>Some common artefacts of a PERFORMANCE_WORK include: 
+
+A stage manager’s prompt book.
+A printed script.
+The printed score of a concerto.
+A choreographer&apos;s written notations of a dance piece.
+A photograph.
+
+An example of an intangible ARTEFACT: 
+Software (E.g. the app developed for Cafe Sarajevo)
+Video (E.g. the digital video recording of a dance).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/artefact</IRI>
+        <Literal xml:lang="en-ca">artefact</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#comment"/>
+        <IRI>https://www.w3.org/community/pair-cg/artefact</IRI>
+        <Literal>Relevant CQs: 
+What directorial notes exist about the work?
+What documentation exists about this performance?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://www.w3.org/community/pair-cg/artefact</IRI>
+        <Literal>An object tangible or intangible made or shaped by some agent or intelligence, not necessarily of direct human origin.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/artistic_intention</IRI>
+        <Literal xml:lang="en-ca">artistic_intention</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#comment"/>
+        <IRI>https://www.w3.org/community/pair-cg/artistic_intention</IRI>
+        <Literal>Relevant CQs: 
+What do you think the artist intended to make me feel during that piece?
+Was I supposed to laugh at that moment? What was the artist going for?
+What do you think the artist’s intention was with the performance work?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://www.w3.org/community/pair-cg/artistic_intention</IRI>
+        <Literal>An AGENT’s purpose or motivation that they wish to achieve.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/artistic_proccess_team</IRI>
+        <Literal xml:lang="en-ca">artistic_process_team</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#comment"/>
+        <IRI>https://www.w3.org/community/pair-cg/artistic_proccess_team</IRI>
+        <Literal>Relevant CQs: 
+Who was involved in developing the show?
+What team of artists are responsible for putting on the show?
+Synonyms: creative team, the company, troupe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#comment"/>
+        <IRI>https://www.w3.org/community/pair-cg/artistic_proccess_team</IRI>
+        <Literal>Some sub classes could include:
+
+creative team
+cast
+production team
+design team
+administrative team</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://www.w3.org/community/pair-cg/artistic_proccess_team</IRI>
+        <Literal>A group of AGENTS responsible for some aspect of the ARTISTIC_PROCESS. In order to be a member of this group, an AGENT must make a CONTRIBUTION within the ARTISTIC_PROCESS.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/artistic_process</IRI>
+        <Literal xml:lang="en-ca">artistic_process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#comment"/>
+        <IRI>https://www.w3.org/community/pair-cg/artistic_process</IRI>
+        <Literal>The ARTISTIC_PROCESS may include activities such as a DEVELOPMENT_PHASE and one or more REALIZATION_ACTIVITY.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://www.w3.org/community/pair-cg/artistic_process</IRI>
+        <Literal>A type of COMPLEX_ACTIVITY that involves a unique combination of vision, creativity, intuition, inspiration and collaboration balanced with craft, technique, accountability, discipline, and use of time and resources. Cognitive and physical actions are present.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/attendee</IRI>
+        <Literal xml:lang="en-ca">attendee</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#comment"/>
+        <IRI>https://www.w3.org/community/pair-cg/attendee</IRI>
+        <Literal>Synonyms: audience member, witness, patron</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://www.w3.org/community/pair-cg/attendee</IRI>
+        <Literal>An entity that is present at a REALIZATION_ACTIVITY with the intent of experiencing it.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/combinatorial_mode</IRI>
+        <Literal xml:lang="en-ca">combinatorial_mode</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#comment"/>
+        <IRI>https://www.w3.org/community/pair-cg/combinatorial_mode</IRI>
+        <Literal>Relevant CQs: 
+What combinatorial_mode is the presentation?
+Is it an interdisciplinary piece?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#comment"/>
+        <IRI>https://www.w3.org/community/pair-cg/combinatorial_mode</IRI>
+        <Literal>Sample instance:
+
+Intradisciplinary (working within a single discipline)
+
+Cross Disciplinary (viewing one discipline from the perspective of another)
+
+Multidisciplinary (people from different disciplines working together, each drawing on their disciplinary knowledge), 
+
+Interdisciplinary (integrating knowledge and methods from different disciplines, using a real synthesis of approaches)
+
+Transdisciplinary (creating a unity of intellectual frameworks beyond the disciplinary perspectives). 
+
+Reference: https://www.arj.no/2012/03/12/disciplinarities-2/
+see reference: https://www.arj.no/2012/03/12/disciplinarities-2/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://www.w3.org/community/pair-cg/combinatorial_mode</IRI>
+        <Literal>The way in which one or more disciplines are used or combined.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/complex_activity</IRI>
+        <Literal xml:lang="en-ca">complex_activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#comment"/>
+        <IRI>https://www.w3.org/community/pair-cg/complex_activity</IRI>
+        <Literal>Relevant CQs: 
+What is your artistic process?
+Which phase of the process are you currently in?
+When will the process of making and presenting the show be done?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#comment"/>
+        <IRI>https://www.w3.org/community/pair-cg/complex_activity</IRI>
+        <Literal>The artistic process, for example, contains multiple subactivities, therefore it is a complex activity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#comment"/>
+        <IRI>https://www.w3.org/community/pair-cg/complex_activity</IRI>
+        <Literal>synonym: creative_process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://www.w3.org/community/pair-cg/complex_activity</IRI>
+        <Literal>An ACTIVITY that includes two or more subactivities.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/contribution</IRI>
+        <Literal xml:lang="en-ca">contribution</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://www.w3.org/community/pair-cg/contribution</IRI>
+        <Literal>something given or contributed by an AGENT towards bringing about a result or helping something to advance.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>https://www.w3.org/community/pair-cg/creative_contribution</IRI>
+        <Literal>Generating CREATIVE_MATERIAL is a form of CREATIVE_CONTRIBUTION. 
+
+
+When you improvise, you make three types of CREATIVE_CONTRIBUTION. 
+You contribute CREATIVE_MATERIAL
+You contribute a PERFORMANCE_WORK
+You contribute the PERFORMANCE_REALIZATION</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/creative_contribution</IRI>
+        <Literal xml:lang="en-ca">creative_contribution</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://www.w3.org/community/pair-cg/creative_contribution</IRI>
+        <Literal>A CREATIVE_CONTRIBUTION is a type of CONTRIBUTION that includes generation of creative ideas or materials by an individual in a group, helping the creative performance of other group members or stimulating the creative energy of other group members.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>https://www.w3.org/community/pair-cg/creative_delivery_method</IRI>
+        <Literal>Examples: 
+
+1. Vocal Delivery
+2. Gestural Delivery
+3. Technological Delivery
+
+E.G.
+In the case of bluemouth inc.’s PERFORMANCE_WORK Cafe Sarajevo, the company developed a new headset system for audiences to experience the show. The headset system used RF headphones in combination with a custom iOS application developed by Jacob Niedzwiecki. The headset system allowed audiences to receive 360 video that was cued simultaneously. The CREATIVE_DELIVERY_METHOD of the headset system resulted in a creative innovation for research purposes. 
+
+E.G.
+UnSpun Theatre’s PERFORMANCE_WORK Lost Together invites audiences to share a story about something they have lost. Throughout the conversation, the two artists work together to re-imagine and recreate that lost thing for the audience member. The created objects become a part of an ever-evolving exhibition. This creative approach of conversation and tangible object making is a CREATIVE_DELIVERY_METHOD within the piece.
+
+
+Other examples of a creative_delivery_approach could include projection-mapping, augmented-reality, use of a phone or web applications to name a few.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/creative_delivery_method</IRI>
+        <Literal xml:lang="en-ca">creative_delivery_method</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://www.w3.org/community/pair-cg/creative_delivery_method</IRI>
+        <Literal>a technology, device, application or method that is used to transfer CREATIVE_MATERIAL  to an ATTENDEE.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>https://www.w3.org/community/pair-cg/creative_material</IRI>
+        <Literal>CREATIVE_MATERIAL may include: 
+
+Dialogue to be performed 
+A story to be told
+A lighting design to be executed
+Music to be performed
+Choreography to be performed
+Acting states, intentions and beats to be performed
+
+CREATIVE_MATERIAL can exist with or without ever being realized. 
+
+An example of CREATIVE_MATERIAL is the specific movement sequence of a piece of choreography to be performed, or a chord progression of a piece of music to be played. 
+
+CREATIVE_MATERIAL may have ARTEFACTs associated with it such as a video recording, photographs, notations or a PERFORMANCE_TEXT (E.g. script or score), or may not have artefacts (E.g. they remain in a storyteller’s mind).
+
+How does CREATIVE_MATERIAL differ from an INTANGIBLE_REALIZATION_ELEMENT? 
+
+
+CREATIVE_MATERIAL is, for example, the content which is executed, whereas the INTANGIBLE_REALIZATION_ELEMENT is the particular way it is executed, such as it’s tempo, volume or vocal delivery.
+
+
+How does CREATIVE_MATERIAL relate to improvisation? 
+Prior to a concert there may be a score in some notation, which captures the notes to be performed. Before a musician&apos;s performance, we can talk about the CREATIVE_MATERIAL which will be performed. We can also talk about the PERFORMANCE_WORK, which captures the plan for how the conductor has rehearsed the musicians to perform, containing the tempo, dynamics and other colours for the performance. There are also choices about how the music should be performed being made, including tuning, instrumentation and more which is created during rehearsals, and will be embodied during the PERFORMANCE_REALIZATION. If the concert also includes a cadenza, and that cadenza is improvised by a soloist, that is CREATIVE_MATERIAL that is generated by the pianist at the time of realization. When the pianist improvises on stage, she is simultaneously creating music and performing it. As she creates, she earns the role of composer and has creative rights over that content. 
+
+
+How does CREATIVE_MATERIAL relate to stories or dances that are passed down through the generations, and not recorded? 
+When a storyteller hears a story, they can hold that story in their head. The ideas of the story itself are the CREATIVE_MATERIAL. The story does not need to be archived, documented or written down to exist. It exists in the storyteller’s head. Once the storyteller begins to voice or perform the story for others, the CREATIVE_MATERIAL, along with the other elements (tangible and intangible) form the PERFORMANCE_WORK, and are realized as a PERFORMANCE_REALIZATION.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/creative_material</IRI>
+        <Literal xml:lang="en-ca">creative_material</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#comment"/>
+        <IRI>https://www.w3.org/community/pair-cg/creative_material</IRI>
+        <Literal>Relevant CQs: 
+What did you think of the dialogue in the show?
+How did you feel about the music of the performance?
+Where can I find an archival recording of that piece of choreography?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://www.w3.org/community/pair-cg/creative_material</IRI>
+        <Literal>A component of content relating to or involving ideas generated during the ARTISTIC_PROCESS.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>https://www.w3.org/community/pair-cg/creative_material_artefact</IRI>
+        <Literal>A musical score (a written form of a musical composition), written script, or dance notation are all examples of a CREATIVE_MATERIAL_ARTEFACT. A printed musical score may include pitches, rhythms, or chords of songs or instrumental musical pieces. In the case of a script or text, the document may contain acts, scenes, characters, dialogues and stage directions. A dance score may include notations, descriptions, visuals or diagrams of the choreography. The software that embodies a lighting design or sound design is also a CREATIVE_MATERIAL_ARTEFACT.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/creative_material_artefact</IRI>
+        <Literal xml:lang="en-ca">creative_material_artefact</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#comment"/>
+        <IRI>https://www.w3.org/community/pair-cg/creative_material_artefact</IRI>
+        <Literal>Relevant CQs: 
+What script was performed? 
+When will this play be published?
+Where can I buy Andrea Scott’s play Controlled Damage?
+Where can I get the libretto for Traviata?
+Who wrote the musical score?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://www.w3.org/community/pair-cg/creative_material_artefact</IRI>
+        <Literal>A type of ARTEFACT for CREATIVE_MATERIAL that uses language or symbols to indicate elements to be executed.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/date</IRI>
+        <Literal xml:lang="en-ca">date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/discipline</IRI>
+        <Literal xml:lang="en-ca">discipline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#comment"/>
+        <IRI>https://www.w3.org/community/pair-cg/discipline</IRI>
+        <Literal>Relevant CQs: 
+What type of show is it? 
+What artistic disciplines are present in the work?
+Is this a dance piece?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://www.w3.org/community/pair-cg/discipline</IRI>
+        <Literal>An area of concentration; a field of practice.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/group_of_agents</IRI>
+        <Literal xml:lang="en-ca">group_of_agents</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://www.w3.org/community/pair-cg/group_of_agents</IRI>
+        <Literal>One or more AGENTS.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>https://www.w3.org/community/pair-cg/intangible_property</IRI>
+        <Literal>Some examples include, but are not limited to: 
+
+Setting
+Character
+Plot
+Conflict
+Resolution
+Point of View
+Theme
+Form
+Style
+Genre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/intangible_property</IRI>
+        <Literal xml:lang="en-ca">intangible_property</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#comment"/>
+        <IRI>https://www.w3.org/community/pair-cg/intangible_property</IRI>
+        <Literal>Relevant CQs: 
+What do you think of the plot of the piece?
+How did you feel about the main character?
+How would you describe the conflict in the story?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://www.w3.org/community/pair-cg/intangible_property</IRI>
+        <Literal>A non tactile attribute, quality, or characteristic relating to content.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://www.w3.org/community/pair-cg/part</IRI>
+        <Literal>(part will be pulled in from existing ontology)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/part</IRI>
+        <Literal xml:lang="en-ca">part</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://www.w3.org/community/pair-cg/part</IRI>
+        <Literal>An individual element that is a segment of something.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>https://www.w3.org/community/pair-cg/performance_part</IRI>
+        <Literal>In musical composition, a PERFORMANCE_PART is often a single melody of music for a particular instrument within a larger musical composition. In theatre, a PERFORMANCE_PART is often a specific set of actions, movement and/or spoken or sung words, which may be played by one performer or many.
+
+Example: each character in Peter and the Wolf is represented by a different instrument PERFORMANCE_PART. The String segment, for example, is a specific melody associated with the character of Peter. A PERFORMANCE_PART exists for the strings.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/performance_part</IRI>
+        <Literal xml:lang="en-ca">performance_part</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#comment"/>
+        <IRI>https://www.w3.org/community/pair-cg/performance_part</IRI>
+        <Literal>Subclasses to be added: 
+CharacterPart, VocalPart, DancePart, SuperPart, and InstrumentalPart&quot; subclasses.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://www.w3.org/community/pair-cg/performance_part</IRI>
+        <Literal>A type of PART designed to be executed. This may include a character, portrayal, melody or segment which combined with others, makes up the whole.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>https://www.w3.org/community/pair-cg/performance_realization</IRI>
+        <Literal>When we attend a play, or a concert, or musical, we perceive the PERFORMANCE_WORK being executed live before our eyes. This result of this execution is a PERFORMANCE_REALIZATION. For example, we may perceive CREATIVE_MATERIAL being performed such as musicians playing music, actors speaking lines of dialogue, dancers performing movements, acrobats executing acrobatics. We also perceive TANGIBLE_REALIZATION_ELEMENTs such as the stage, sets, lights, costumes, props, audience seating etc.(Doty, 2013) and perceive the INTANGIBLE_REALIZATION_ELEMENTs such as the volume or pitch of an instrument or the timbre of an actor&apos;s voice. Together, these elements make up the PERFORMANCE_WORK, and when executed for an audience, the result is a PERFORMANCE_REALIZATION.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/performance_realization</IRI>
+        <Literal xml:lang="en-ca">performance_realization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#comment"/>
+        <IRI>https://www.w3.org/community/pair-cg/performance_realization</IRI>
+        <Literal>Relevant CQs: 
+Which performance of Controlled Damage did you see last week?
+What did you think of the performance?
+How did the performance make you feel?
+Will the understudy be performing in tonight’s show?
+Which night of the production did the critic see and review?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://www.w3.org/community/pair-cg/performance_realization</IRI>
+        <Literal>The intangible result of a REALIZATION_ACTIVITY being executed, often referred to in the domain as the performance itself.
+
+The result of the execution of a PERFORMANCE_WORK or portion of it, for or with an audience.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://www.w3.org/community/pair-cg/performance_realization_schedule</IRI>
+        <Literal>Synonyms: run, show run, tour, production schedule</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/performance_realization_schedule</IRI>
+        <Literal xml:lang="en-ca">performance_realization_schedule</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://www.w3.org/community/pair-cg/performance_realization_schedule</IRI>
+        <Literal>A sequence of PERFORMANCE_REALIZATIONS of the same PERFORMANCE_WORK. A run has a start date and an end date, but no further limitations. It may also have a schedule attached (schedule to be expanded in future work).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>https://www.w3.org/community/pair-cg/performance_work</IRI>
+        <Literal>The PERFORMANCE_WORK can exist whether or not it is ever realised for an audience. In the case of pure improvisation, it may also be concurrently created with a PERFORMANCE_REALIZATION. Generation and execution can happen concurrently.
+The best example of an artefact of a PERFORMANCE_WORK is the stage manager’s prompt book, which generally includes a written document containing lighting and sound cues, CREATIVE_MATERIAL_ARTEFACTS such as the script, or musical score, blocking directions, a list of props and costumes as well as other notes or directions for staging the work. The PERFORMANCE_WORK is the plan for how the elements will be executed. If that plan is written down or notated in some way, that documentation is an artefact of the PERFORMANCE_WORK.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/performance_work</IRI>
+        <Literal xml:lang="en-ca">performance_work</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#comment"/>
+        <IRI>https://www.w3.org/community/pair-cg/performance_work</IRI>
+        <Literal>Relevant CQs: 
+What performance_works were performed at the Summerworks Performance Festival?
+Is it a restaging of the same production, or a new version?
+What rating did the critic give the production?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#comment"/>
+        <IRI>https://www.w3.org/community/pair-cg/performance_work</IRI>
+        <Literal>Synonym: production_work, production</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://www.w3.org/community/pair-cg/performance_work</IRI>
+        <Literal>The PERFORMANCE_WORK is the conceptual plan for how elements (such as CREATIVE_MATERIAL, TANGIBLE_REALIZATION_ELEMENTs and/or INTANGIBLE_REALIZATION_ELEMENTs) will be executed in front of an audience.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/person</IRI>
+        <Literal xml:lang="en-ca">person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#comment"/>
+        <IRI>https://www.w3.org/community/pair-cg/person</IRI>
+        <Literal>Person ontology will be imported for use. 
+https://www.w3.org/ns/person
+Declare mappings to existing ontologies for describing people.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/phase</IRI>
+        <Literal xml:lang="en-ca">phase</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#comment"/>
+        <IRI>https://www.w3.org/community/pair-cg/phase</IRI>
+        <Literal>Relevant CQ: 
+Which phase is the project in?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://www.w3.org/community/pair-cg/phase</IRI>
+        <Literal>Definition: a distinct period or stage of the ARTISTIC_PROCESS. A PHASE is a type of COMPLEX_ACTIVITY.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/realization_activity</IRI>
+        <Literal xml:lang="en-ca">realization_activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#comment"/>
+        <IRI>https://www.w3.org/community/pair-cg/realization_activity</IRI>
+        <Literal>Example: Whenever a performer performs, be that in the rehearsal room or on stage for a live audience, they are engaged in a REALIZATION_ACTIVITY. 
+
+
+Subclass Examples: REALIZATION ACTIVITIES can be categorized based on their properties, including the agents involved, the context of the activity (e.g the circumstances that indicate the completeness, purpose and setting for the REALIZATION_ACTIVITY to occur such as a rehearsal, workshop performance, or script reading), and also the portion of the PERFORMANCE_WORK being executed (e.g a first act performance, a single song, a monologue, a full three act play).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#comment"/>
+        <IRI>https://www.w3.org/community/pair-cg/realization_activity</IRI>
+        <Literal>Relevant CQs: 
+When will the show be performed?
+When is it playing?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://www.w3.org/community/pair-cg/realization_activity</IRI>
+        <Literal>A type of COMPLEX_ACTIVITY in which a PERFORMANCE_WORK is executed, in whole or in part.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/realization_element</IRI>
+        <Literal xml:lang="en-ca">realization_element</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://www.w3.org/community/pair-cg/realization_element</IRI>
+        <Literal>A component of the PERFORMANCE_REALIZATION.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/role</IRI>
+        <Literal xml:lang="en-ca">role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>https://www.w3.org/community/pair-cg/role</IRI>
+        <Literal>a set of connected behaviours, rights, obligations, beliefs and norms as conceptualised by people in a performing arts context.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.w3.org/community/pair-cg/state</IRI>
+        <Literal xml:lang="en-ca">state</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
